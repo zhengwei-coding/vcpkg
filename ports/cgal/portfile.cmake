@@ -6,6 +6,8 @@ vcpkg_from_github(
     REF v${VERSION}
     SHA512 28963cdbf84d516290da69ca2ad5c90ec61dd9ca9cd97643ccf5b553c406e96a82621270214c0c81c32da7f8c388090a304d229925ed6e1548dbce3abcf1a259
     HEAD_REF master
+	PATCHES
+		0001-insert-performance.patch
 )
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"

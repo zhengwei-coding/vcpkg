@@ -1,0 +1,26 @@
+--- a/modules/core/include/opencv2/core/private.cuda.hpp	2025-01-08 20:47:46.000000000 +0800
++++ b/modules/core/include/opencv2/core/private.cuda.hpp	2025-05-22 08:12:42.646404900 +0800
+@@ -147,7 +147,23 @@
+         inline explicit NppStreamHandler(cudaStream_t newStream)
+         {
+             nppStreamContext = {};
++			#if CUDA_VERSION < 12090
+             nppSafeCall(nppGetStreamContext(&nppStreamContext));
++			#else
++			int device = 0;
++			cudaSafeCall(cudaGetDevice(&device));
++
++			cudaDeviceProp prop{};
++			cudaSafeCall(cudaGetDeviceProperties(&prop, device));
++
++			nppStreamContext.nCudaDeviceId = device;
++			nppStreamContext.nMultiProcessorCount = prop.multiProcessorCount;
++			nppStreamContext.nMaxThreadsPerMultiProcessor = prop.maxThreadsPerMultiProcessor;
++			nppStreamContext.nMaxThreadsPerBlock = prop.maxThreadsPerBlock;
++			nppStreamContext.nSharedMemPerBlock = prop.sharedMemPerBlock;
++			nppStreamContext.nCudaDevAttrComputeCapabilityMajor = prop.major;
++			nppStreamContext.nCudaDevAttrComputeCapabilityMinor = prop.minor;
++			#endif
+             nppStreamContext.hStream = newStream;
+             cudaSafeCall(cudaStreamGetFlags(nppStreamContext.hStream, &nppStreamContext.nStreamFlags));
+         }

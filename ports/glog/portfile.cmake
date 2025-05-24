@@ -25,6 +25,8 @@ vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
     OPTIONS
         -DBUILD_TESTING=OFF
+		-DBUILD_SHARED_LIBS=OFF
+		-DWITH_GFLAGS=OFF
         ${FEATURE_OPTIONS}
 )
 

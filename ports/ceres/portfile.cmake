@@ -17,6 +17,7 @@ vcpkg_from_github(
         0002_use_glog_target.patch
         0003_fix_exported_ceres_config.patch
         0004_remove_broken_fake_ba_jac.patch
+		0005_modern_suitesparse_cmakefiles.patch
 )
 
 file(REMOVE "${SOURCE_PATH}/cmake/FindGflags.cmake")

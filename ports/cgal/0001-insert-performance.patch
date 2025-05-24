@@ -1,0 +1,34 @@
+--- a/Triangulation_3/include/CGAL/Delaunay_triangulation_3.h	2024-10-19 00:04:13.000000000 +0800
++++ b/Triangulation_3/include/CGAL/Delaunay_triangulation_3.h	2025-04-12 21:27:24.623557700 +0800
+@@ -411,6 +411,7 @@
+   std::ptrdiff_t insert_with_info(InputIterator first, InputIterator last)
+   {
+     size_type n = number_of_vertices();
++#if 0 // GUAN: for performance purpose
+     std::vector<std::size_t> indices;
+     std::vector<Point> points;
+     std::vector<typename Triangulation_data_structure::Vertex::Info> infos;
+@@ -422,6 +423,23 @@
+       infos.push_back(top_get_second(value));
+       indices.push_back(index++);
+     }
++#else
++    size_t point_count = std::distance(first, last);
++    std::vector<std::size_t> indices;
++    indices.reserve(point_count);
++    std::vector<Point> points;
++    points.reserve(point_count);
++    std::vector<typename Triangulation_data_structure::Vertex::Info> infos;
++    infos.reserve(point_count);
++    std::size_t index=0;
++    for(InputIterator it=first;it!=last;++it)
++    {
++      Tuple_or_pair value=*it;
++      points.emplace_back(top_get_first(value));
++      infos.emplace_back(top_get_second(value));
++      indices.emplace_back(index++);
++    }
++#endif
+ 
+     typedef typename Pointer_property_map<Point>::type Pmap;
+     typedef Spatial_sort_traits_adapter_3<Geom_traits,Pmap> Search_traits;
