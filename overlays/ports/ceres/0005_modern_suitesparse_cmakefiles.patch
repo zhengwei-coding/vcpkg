@@ -1,0 +1,46 @@
+--- a/internal/ceres/CMakeLists.txt	2025-05-22 14:58:12.399539200 +0800
++++ b/internal/ceres/CMakeLists.txt	2025-05-22 15:38:36.674501900 +0800
+@@ -89,20 +89,34 @@
+   list(APPEND CERES_LIBRARY_PUBLIC_DEPENDENCIES glog::glog)
+ endif (NOT MINIGLOG)
+ 
+-if (SUITESPARSE AND SuiteSparse_FOUND)
++if (SUITESPARSE)
+   # Define version information for use in Solver::FullReport.
+-  add_definitions(-DCERES_SUITESPARSE_VERSION="${SuiteSparse_VERSION}")
+-  list(APPEND CERES_LIBRARY_PRIVATE_DEPENDENCIES SuiteSparse::CHOLMOD
+-    SuiteSparse::SPQR)
++  if (SuiteSparse_FOUND)
++	  add_definitions(-DCERES_SUITESPARSE_VERSION="${SuiteSparse_VERSION}")
++	  list(APPEND CERES_LIBRARY_PRIVATE_DEPENDENCIES SuiteSparse::CHOLMOD
++		SuiteSparse::SPQR)
+ 
+-  if (SuiteSparse_Partition_FOUND)
+-    list(APPEND CERES_LIBRARY_PRIVATE_DEPENDENCIES SuiteSparse::Partition)
+-  endif (SuiteSparse_Partition_FOUND)
+-endif (SUITESPARSE AND SuiteSparse_FOUND)
++	  if (SuiteSparse_Partition_FOUND)
++		list(APPEND CERES_LIBRARY_PRIVATE_DEPENDENCIES SuiteSparse::Partition)
++	  endif (SuiteSparse_Partition_FOUND)
++  else (SuiteSparse_FOUND)
++	find_package(CHOLMOD CONFIG REQUIRED)
++	find_package(SPQR CONFIG REQUIRED)
++	set(SuiteSparse_Partition_FOUND True)
++	list(APPEND CERES_LIBRARY_PRIVATE_DEPENDENCIES SuiteSparse::CHOLMOD
++		SuiteSparse::SPQR metis)
++  endif (SuiteSparse_FOUND)
++endif (SUITESPARSE)
+ 
+ if (SuiteSparse_Partition_FOUND OR EIGENMETIS)
+   # Define version information for use in Solver::FullReport.
+-  add_definitions(-DCERES_METIS_VERSION="${METIS_VERSION}")
++  find_package(metis CONFIG REQUIRED)
++  # if (DEFINED METIS_VERSION)
++    add_definitions(-DCERES_METIS_VERSION="5.4.0")
++  # endif(DEFINED METIS_VERSION)
++  if (TARGET metis AND NOT TARGET METIS::METIS)
++	add_library(METIS::METIS ALIAS metis)
++  endif()
+   list(APPEND CERES_LIBRARY_PRIVATE_DEPENDENCIES METIS::METIS)
+ endif (SuiteSparse_Partition_FOUND OR EIGENMETIS)
+ 
