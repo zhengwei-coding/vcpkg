@@ -1,0 +1,373 @@
+abseil:x64-windows                                20250127.0          Abseil is an open-source collection of C++ libra...
+abseil:x64-windows-static-md                      20250127.0          Abseil is an open-source collection of C++ libra...
+blas:x64-windows-static-md                        2023-04-14#3        Metapackage for packages which provide BLAS
+boost-accumulators:x64-windows-static-md          1.87.0              Boost accumulators module
+boost-algorithm:x64-windows-static-md             1.87.0              Boost algorithm module
+boost-align:x64-windows-static-md                 1.87.0              Boost align module
+boost-any:x64-windows-static-md                   1.87.0              Boost any module
+boost-array:x64-windows-static-md                 1.87.0              Boost array module
+boost-asio:x64-windows-static-md                  1.87.0#1            Boost asio module
+boost-assert:x64-windows-static-md                1.87.0              Boost assert module
+boost-atomic:x64-windows-static-md                1.87.0#1            Boost atomic module
+boost-bimap:x64-windows-static-md                 1.87.0              Boost bimap module
+boost-bind:x64-windows-static-md                  1.87.0              Boost bind module
+boost-callable-traits:x64-windows-static-md       1.87.0              Boost callable_traits module
+boost-chrono:x64-windows-static-md                1.87.0              Boost chrono module
+boost-circular-buffer:x64-windows-static-md       1.87.0              Boost circular_buffer module
+boost-cmake:x64-windows-static-md                 1.87.0              Boost CMake support infrastructure
+boost-compute:x64-windows-static-md               1.87.0#1            Boost compute module
+boost-concept-check:x64-windows-static-md         1.87.0              Boost concept_check module
+boost-config:x64-windows-static-md                1.87.0              Boost config module
+boost-container-hash:x64-windows-static-md        1.87.0              Boost container_hash module
+boost-container:x64-windows-static-md             1.87.0              Boost container module
+boost-context:x64-windows-static-md               1.87.0#1            Boost context module
+boost-conversion:x64-windows-static-md            1.87.0              Boost conversion module
+boost-core:x64-windows-static-md                  1.87.0              Boost core module
+boost-crc:x64-windows-static-md                   1.87.0              Boost crc module
+boost-date-time:x64-windows-static-md             1.87.0              Boost date_time module
+boost-describe:x64-windows-static-md              1.87.0              Boost describe module
+boost-detail:x64-windows-static-md                1.87.0              Boost detail module
+boost-dynamic-bitset:x64-windows-static-md        1.87.0              Boost dynamic_bitset module
+boost-endian:x64-windows-static-md                1.87.0              Boost endian module
+boost-exception:x64-windows-static-md             1.87.0              Boost exception module
+boost-filesystem:x64-windows-static-md            1.87.0              Boost filesystem module
+boost-foreach:x64-windows-static-md               1.87.0              Boost foreach module
+boost-format:x64-windows-static-md                1.87.0              Boost format module
+boost-function-types:x64-windows-static-md        1.87.0              Boost function_types module
+boost-function:x64-windows-static-md              1.87.0              Boost function module
+boost-functional:x64-windows-static-md            1.87.0              Boost functional module
+boost-fusion:x64-windows-static-md                1.87.0              Boost fusion module
+boost-geometry:x64-windows-static-md              1.87.0              Boost geometry module
+boost-graph:x64-windows-static-md                 1.87.0              Boost graph module
+boost-headers:x64-windows-static-md               1.87.0              Boost headers module
+boost-heap:x64-windows-static-md                  1.87.0              Boost heap module
+boost-integer:x64-windows-static-md               1.87.0              Boost integer module
+boost-interprocess:x64-windows-static-md          1.87.0#1            Boost interprocess module
+boost-interval:x64-windows-static-md              1.87.0              Boost interval module
+boost-intrusive:x64-windows-static-md             1.87.0              Boost intrusive module
+boost-io:x64-windows-static-md                    1.87.0              Boost io module
+boost-iostreams:x64-windows-static-md             1.87.0              Boost iostreams module
+boost-iostreams[bzip2]:x64-windows-static-md                          Support bzip2 filters
+boost-iostreams[lzma]:x64-windows-static-md                           Support LZMA/xz filters
+boost-iostreams[zlib]:x64-windows-static-md                           Support zlib filters
+boost-iostreams[zstd]:x64-windows-static-md                           Support zstd filters
+boost-iterator:x64-windows-static-md              1.87.0              Boost iterator module
+boost-lambda:x64-windows-static-md                1.87.0              Boost lambda module
+boost-lexical-cast:x64-windows-static-md          1.87.0#1            Boost lexical_cast module
+boost-locale:x64-windows-static-md                1.87.0              Boost locale module
+boost-lockfree:x64-windows-static-md              1.87.0#1            Boost lockfree module
+boost-logic:x64-windows-static-md                 1.87.0              Boost logic module
+boost-math:x64-windows-static-md                  1.87.0              Boost math module
+boost-move:x64-windows-static-md                  1.87.0              Boost move module
+boost-mp11:x64-windows-static-md                  1.87.0              Boost mp11 module
+boost-mpl:x64-windows-static-md                   1.87.0              Boost mpl module
+boost-multi-array:x64-windows-static-md           1.87.0              Boost multi_array module
+boost-multi-index:x64-windows-static-md           1.87.0              Boost multi_index module
+boost-multiprecision:x64-windows-static-md        1.87.0              Boost multiprecision module
+boost-numeric-conversion:x64-windows-static-md    1.87.0              Boost numeric_conversion module
+boost-optional:x64-windows-static-md              1.87.0#1            Boost optional module
+boost-parameter:x64-windows-static-md             1.87.0              Boost parameter module
+boost-phoenix:x64-windows-static-md               1.87.0              Boost phoenix module
+boost-polygon:x64-windows-static-md               1.87.0              Boost polygon module
+boost-pool:x64-windows-static-md                  1.87.0              Boost pool module
+boost-predef:x64-windows-static-md                1.87.0              Boost predef module
+boost-preprocessor:x64-windows-static-md          1.87.0              Boost preprocessor module
+boost-program-options:x64-windows-static-md       1.87.0              Boost program_options module
+boost-property-map:x64-windows-static-md          1.87.0              Boost property_map module
+boost-property-tree:x64-windows-static-md         1.87.0              Boost property_tree module
+boost-proto:x64-windows-static-md                 1.87.0              Boost proto module
+boost-ptr-container:x64-windows-static-md         1.87.0              Boost ptr_container module
+boost-qvm:x64-windows-static-md                   1.87.0              Boost qvm module
+boost-random:x64-windows-static-md                1.87.0              Boost random module
+boost-range:x64-windows-static-md                 1.87.0              Boost range module
+boost-ratio:x64-windows-static-md                 1.87.0              Boost ratio module
+boost-rational:x64-windows-static-md              1.87.0              Boost rational module
+boost-regex:x64-windows-static-md                 1.87.0#1            Boost regex module
+boost-scope:x64-windows-static-md                 1.87.0              Boost scope module
+boost-serialization:x64-windows-static-md         1.87.0              Boost serialization module
+boost-signals2:x64-windows-static-md              1.87.0              Boost signals2 module
+boost-smart-ptr:x64-windows-static-md             1.87.0              Boost smart_ptr module
+boost-sort:x64-windows-static-md                  1.87.0              Boost sort module
+boost-spirit:x64-windows-static-md                1.87.0              Boost spirit module
+boost-static-assert:x64-windows-static-md         1.87.0              Boost static_assert module
+boost-system:x64-windows-static-md                1.87.0              Boost system module
+boost-thread:x64-windows-static-md                1.87.0              Boost thread module
+boost-throw-exception:x64-windows-static-md       1.87.0              Boost throw_exception module
+boost-tokenizer:x64-windows-static-md             1.87.0              Boost tokenizer module
+boost-tti:x64-windows-static-md                   1.87.0              Boost tti module
+boost-tuple:x64-windows-static-md                 1.87.0              Boost tuple module
+boost-type-index:x64-windows-static-md            1.87.0              Boost type_index module
+boost-type-traits:x64-windows-static-md           1.87.0              Boost type_traits module
+boost-typeof:x64-windows-static-md                1.87.0              Boost typeof module
+boost-ublas:x64-windows-static-md                 1.87.0              Boost ublas module
+boost-uninstall:x64-windows-static-md             1.87.0              Internal vcpkg port used to uninstall Boost
+boost-units:x64-windows-static-md                 1.87.0              Boost units module
+boost-unordered:x64-windows-static-md             1.87.0#1            Boost unordered module
+boost-utility:x64-windows-static-md               1.87.0              Boost utility module
+boost-uuid:x64-windows-static-md                  1.87.0              Boost uuid module
+boost-variant2:x64-windows-static-md              1.87.0              Boost variant2 module
+boost-variant:x64-windows-static-md               1.87.0              Boost variant module
+boost-winapi:x64-windows-static-md                1.87.0              Boost winapi module
+boost-xpressive:x64-windows-static-md             1.87.0              Boost xpressive module
+brotli:x64-windows-static-md                      1.1.0#1             a generic-purpose lossless compression algorithm...
+bzip2:x64-windows-static-md                       1.0.8#6             bzip2 is a freely available, patent free, high-q...
+bzip2[tool]:x64-windows-static-md                                     Builds bzip2 executable
+ceres:x64-windows-static-md                       2.2.0#1             non-linear optimization package
+ceres[cuda]:x64-windows-static-md                                     Support for CUDA based dense solvers
+ceres[eigensparse]:x64-windows-static-md                              Use of Eigen as a sparse linear algebra library ...
+ceres[lapack]:x64-windows-static-md                                   Use Lapack in Ceres
+ceres[schur]:x64-windows-static-md                                    Enable fixed-size Schur specializations in Ceres
+ceres[suitesparse]:x64-windows-static-md                              SuiteSparse support for Ceres
+cgal:x64-windows-static-md                        6.0.1               The Computational Geometry Algorithms Library (C...
+clipper2:x64-windows-static-md                    1.5.2               Polygon Clipping and Offsetting
+cpp-httplib:x64-windows-static-md                 0.20.0#1            A single file C++11 header-only HTTP/HTTPS serve...
+cpp-httplib[brotli]:x64-windows-static-md                             Enables brotli compression support using brotli
+cuda:x64-windows-static-md                        10.1#13             A parallel computing platform and programming model
+curl:x64-windows-static-md                        8.13.0              A library for transferring data with URLs
+curl[non-http]:x64-windows-static-md                                  Enables protocols beyond HTTP/HTTPS/HTTP2
+curl[schannel]:x64-windows-static-md                                  SSL support (Secure Channel)
+curl[ssl]:x64-windows-static-md                                       Default SSL backend
+curl[sspi]:x64-windows-static-md                                      SSPI support
+dirent:x64-windows                                1.24                Dirent is a C/C++ programming interface that all...
+dirent:x64-windows-static-md                      1.24                Dirent is a C/C++ programming interface that all...
+egl-registry:x64-windows                          2024-01-25          EGL API and Extension Registry
+egl-registry:x64-windows-static-md                2024-01-25          EGL API and Extension Registry
+eigen3:x64-windows-static-md                      3.4.0#5             C++ template library for linear algebra: matrice...
+expat:x64-windows-static-md                       2.7.1               XML parser library written in C
+flann:x64-windows-static-md                       2022-10-28          Fast Library for Approximate Nearest Neighbors
+flatbuffers:x64-windows                           25.2.10             FlatBuffers is a cross platform serialization li...
+flatbuffers:x64-windows-static-md                 25.2.10             FlatBuffers is a cross platform serialization li...
+fontconfig:x64-windows-static-md                  2.15.0#2            Library for configuring and customizing font acc...
+freetype:x64-windows-static-md                    2.13.3              A library to render fonts.
+freetype[brotli]:x64-windows-static-md                                Support decompression of WOFF2 streams
+freetype[bzip2]:x64-windows-static-md                                 Support bzip2 compressed fonts.
+freetype[png]:x64-windows-static-md                                   Support PNG compressed OpenType embedded bitmaps.
+freetype[zlib]:x64-windows-static-md                                  Use zlib instead of internal library for DEFLATE
+freexl:x64-windows-static-md                      2.0.0#1             FreeXL is an open source library to extract vali...
+g2o:x64-windows-static-md                         2024-12-14#3        g2o: A General Framework for Graph Optimization
+gdal:x64-windows-static-md                        3.10.2#1            The Geographic Data Abstraction Library for read...
+gdal[curl]:x64-windows-static-md                                      Enable CURL network support
+gdal[expat]:x64-windows-static-md                                     Use EXPAT library
+gdal[geos]:x64-windows-static-md                                      Enable GEOS support
+gdal[gif]:x64-windows-static-md                                       Enable GIF support
+gdal[hdf5]:x64-windows-static-md                                      Enable HDF5 support
+gdal[iconv]:x64-windows-static-md                                     Use iconv library
+gdal[jpeg]:x64-windows-static-md                                      Use JPEG compression library
+gdal[lerc]:x64-windows-static-md                                      Enable LERC support
+gdal[libkml]:x64-windows-static-md                                    Enable the LibKML driver
+gdal[libspatialite]:x64-windows-static-md                             Create or update SpatiaLite databases using libs...
+gdal[libxml2]:x64-windows-static-md                                   Use LibXML2 library
+gdal[lzma]:x64-windows-static-md                                      Use LZMA library
+gdal[netcdf]:x64-windows-static-md                                    Enable NetCDF support
+gdal[openjpeg]:x64-windows-static-md                                  Use OpenJPEG library
+gdal[openssl]:x64-windows-static-md                                   Use OpenSSL library
+gdal[pcre2]:x64-windows-static-md                                     Enable PCRE2 support for sqlite3
+gdal[png]:x64-windows-static-md                                       Use PNG compression library
+gdal[postgresql]:x64-windows-static-md                                Enable PostgreSQL support
+gdal[qhull]:x64-windows-static-md                                     Use QHULL library
+gdal[recommended-features]:x64-windows-static-md                      Features that are explicity marked as recommende...
+gdal[sqlite3]:x64-windows-static-md                                   Enable SQLite3 support
+gdal[webp]:x64-windows-static-md                                      Enable WEBP support
+gdal[zstd]:x64-windows-static-md                                      Use ZSTD library
+geographiclib:x64-windows-static-md               2.5                 GeographicLib, a C++ library for performing geog...
+geos:x64-windows-static-md                        3.13.0#1            Geometry Engine Open Source
+gettext-libintl:x64-windows                       0.22.5#3            The libintl C library from GNU gettext-runtime.
+gettext-libintl:x64-windows-static-md             0.22.5#3            The libintl C library from GNU gettext-runtime.
+gettext:x64-windows                               0.22.5#2            A GNU framework to help produce multi-lingual me...
+gettext[tools]:x64-windows                                            Build gettext tools
+gflags:x64-windows-static-md                      2.2.2#9             A C++ library that implements commandline flags ...
+ghc-filesystem:x64-windows-static-md              1.5.14              An implementation of C++17 std::filesystem for C...
+giflib:x64-windows-static-md                      5.2.2#1             A library for reading and writing gif images.
+gklib:x64-windows-static-md                       2023-03-27          General helper libraries for KarypisLab.
+glew:x64-windows-static-md                        2.2.0#6             The OpenGL Extension Wrangler Library (GLEW) is ...
+glib:x64-windows                                  2.83.4              Portable, general-purpose utility library.
+glog:x64-windows-static-md                        0.7.1               C++ implementation of the Google logging module
+gmp:x64-windows                                   6.3.0#2             The GNU Multiple Precision Arithmetic Library
+gmp:x64-windows-static-md                         6.3.0#2             The GNU Multiple Precision Arithmetic Library
+gperf:x64-windows                                 3.1#7               GNU perfect hash function generator
+harfbuzz:x64-windows-static-md                    10.2.0#3            HarfBuzz OpenType text shaping engine
+harfbuzz[freetype]:x64-windows-static-md                              Enable FreeType support
+hdf5:x64-windows-static-md                        1.14.4.3#4          HDF5 is a data model, library, and file format f...
+hdf5[cpp]:x64-windows-static-md                                       Builds cpp lib
+hdf5[szip]:x64-windows-static-md                                      Build with szip
+hdf5[zlib]:x64-windows-static-md                                      Build with zlib
+highway:x64-windows-static-md                     1.2.0               Performance-portable, length-agnostic SIMD with ...
+imath:x64-windows-static-md                       3.1.12              Imath is a C++ and Python library of 2D and 3D v...
+jasper:x64-windows-static-md                      4.2.4#2             Open source implementation of the JPEG-2000 Part...
+jemalloc:x64-windows-static-md                    5.3.0#2             jemalloc is a general purpose malloc(3) implemen...
+json-c:x64-windows-static-md                      0.18-20240915       A JSON implementation in C
+json-schema-validator:x64-windows-static-md       2.3.0#2             C++ library for validating JSON documents based ...
+kinectsdk1:x64-windows-static-md                  1.8#8               Kinect for Windows SDK for Kinect v1 sensor.
+lapack-reference:x64-windows-static-md            3.11.0#7            LAPACK - Linear Algebra PACKage
+lapack-reference[blas-select]:x64-windows-stati...                    Use external optimized BLAS
+lapack-reference[cblas]:x64-windows-static-md                         Builds CBLAS
+lapack:x64-windows-static-md                      2023-06-10#2        Metapackage for packages which provide LAPACK
+lastools:x64-windows-static-md                    2.0.3               LAStools: award-winning software for efficient L...
+lcms:x64-windows-static-md                        2.16                Little CMS.
+leptonica:x64-windows-static-md                   1.85.0              An open source library containing software that ...
+lerc:x64-windows-static-md                        4.0.4               An open-source image or raster format which supp...
+libaec:x64-windows-static-md                      1.1.3               Adaptive Entropy Coding library
+libarchive:x64-windows-static-md                  3.7.8#1             Library for reading and writing streaming archives
+libarchive[bzip2]:x64-windows-static-md                               BZip2 support
+libarchive[crypto]:x64-windows-static-md                              Support for cryptographic features
+libarchive[libxml2]:x64-windows-static-md                             Libxml2 support
+libarchive[lz4]:x64-windows-static-md                                 Lz4 support
+libarchive[lzma]:x64-windows-static-md                                Lzma support
+libarchive[zstd]:x64-windows-static-md                                Zstd support
+libdeflate:x64-windows-static-md                  1.23                libdeflate is a library for fast, whole-buffer D...
+libdeflate[compression]:x64-windows-static-md                         Support compression
+libdeflate[decompression]:x64-windows-static-md                       Support decompression
+libdeflate[gzip]:x64-windows-static-md                                Support the gzip format
+libdeflate[zlib]:x64-windows-static-md                                Support the zlib format
+libffi:x64-windows                                3.4.7#1             Portable, high level programming interface to va...
+libffi:x64-windows-static-md                      3.4.7#1             Portable, high level programming interface to va...
+libgeotiff:x64-windows-static-md                  1.7.4               Libgeotiff is an open source library on top of l...
+libgta:x64-windows-static-md                      1.0.8#5             Libgta is a portable library that implements the...
+libiconv:x64-windows                              1.18#1              iconv() text conversion.
+libiconv:x64-windows-static-md                    1.18#1              iconv() text conversion.
+libjpeg-turbo:x64-windows-static-md               3.1.0#1             libjpeg-turbo is a JPEG image codec that uses SI...
+libjxl:x64-windows-static-md                      0.11.1              JPEG XL image format reference implementation
+libkml:x64-windows-static-md                      1.3.0#13            Reference implementation of OGC KML 2.2
+liblas:x64-windows-static-md                      1.8.1#15            A C/C++ library for reading and writing the very...
+liblzma:x64-windows-static-md                     5.8.0               Compression library with an API similar to that ...
+libpng:x64-windows-static-md                      1.6.46              libpng is a library implementing an interface fo...
+libpq:x64-windows-static-md                       16.4                The official database access API of postgresql
+libpq[lz4]:x64-windows-static-md                                      Use lz4
+libpq[openssl]:x64-windows-static-md                                  support for encrypted client connections and ran...
+libpq[zlib]:x64-windows-static-md                                     Use zlib
+libspatialite:x64-windows-static-md               5.1.0#4             SpatiaLite is an open source library intended to...
+libspatialite[freexl]:x64-windows-static-md                           FreeXL spreadsheet file support.
+libsquish:x64-windows-static-md                   1.15#14             Open source DXT compression library.
+libwebp:x64-windows-static-md                     1.5.0               WebP codec: library to encode and decode images ...
+libwebp[libwebpmux]:x64-windows-static-md                             Build the libwebpmux library
+libwebp[nearlossless]:x64-windows-static-md                           Enable near-lossless encoding
+libwebp[simd]:x64-windows-static-md                                   Enable any SIMD optimization.
+libwebp[unicode]:x64-windows-static-md                                Build Unicode executables. (Adds definition UNIC...
+libxml2:x64-windows-static-md                     2.13.5#2            Libxml2 is the XML C parser and toolkit develope...
+libxml2[http]:x64-windows-static-md                                   Add the HTTP support
+libxml2[iconv]:x64-windows-static-md                                  Add ICONV support
+libxml2[zlib]:x64-windows-static-md                                   Use ZLib
+lz4:x64-windows-static-md                         1.10.0              Lossless compression algorithm, providing compre...
+mapbox-geometry:x64-windows-static-md             2.0.3               C++ geometry types
+mapbox-variant:x64-windows-static-md              1.2.0#2             C++11/C++14 Variant
+metis:x64-windows-static-md                       2022-07-27          Serial Graph Partitioning and Fill-reducing Matr...
+minizip:x64-windows-static-md                     1.3.1#1             Minizip zip file manipulation library
+mpfr:x64-windows-static-md                        4.2.1               The MPFR library is a C library for multiple-pre...
+netcdf-c:x64-windows-static-md                    4.8.1#5             A set of self-describing, machine-independent da...
+netcdf-c[dap]:x64-windows-static-md                                   Build with DAP remote access client support
+netcdf-c[hdf5]:x64-windows-static-md                                  Build with HDF5 support
+netcdf-c[nczarr]:x64-windows-static-md                                Build with NCZarr cloud storage access support
+netcdf-c[netcdf-4]:x64-windows-static-md                              Build with netCDF-4 support
+nlohmann-json:x64-windows-static-md               3.11.3#1            JSON for Modern C++
+nvtt:x64-windows-static-md                        2.1.2#8             Texture processing tools with support for Direct...
+opencl:x64-windows-static-md                      2024.10.24          OpenCL SDK
+opencv4:x64-windows-static-md                     4.11.0              computer vision library
+opencv4[calib3d]:x64-windows-static-md                                calib3d module
+opencv4[contrib]:x64-windows-static-md                                opencv_contrib module
+opencv4[cuda]:x64-windows-static-md                                   CUDA support for opencv
+opencv4[directml]:x64-windows-static-md                               Build with DirectML support
+opencv4[dnn]:x64-windows-static-md                                    Enable dnn module
+opencv4[dshow]:x64-windows-static-md                                  Enable DirectShow
+opencv4[eigen]:x64-windows-static-md                                  Eigen support for opencv
+opencv4[freetype]:x64-windows-static-md                               Freetype support for opencv
+opencv4[fs]:x64-windows-static-md                                     Enable filesystem support
+opencv4[gapi]:x64-windows-static-md                                   Enable gapi module
+opencv4[highgui]:x64-windows-static-md                                highgui module
+opencv4[intrinsics]:x64-windows-static-md                             Enable intrinsics
+opencv4[ipp]:x64-windows-static-md                                    Enable Intel Integrated Performance Primitives
+opencv4[jpeg]:x64-windows-static-md                                   JPEG support for opencv
+opencv4[jpegxl]:x64-windows-static-md                                 JPEGXL support for opencv
+opencv4[msmf]:x64-windows-static-md                                   Microsoft Media Foundation support for opencv
+opencv4[nonfree]:x64-windows-static-md                                allow nonfree and unredistributable libraries
+opencv4[opencl]:x64-windows-static-md                                 Enable opencl support
+opencv4[openjpeg]:x64-windows-static-md                               JPEG 2000 support for opencv
+opencv4[openmp]:x64-windows-static-md                                 Enable OpenMP support
+opencv4[png]:x64-windows-static-md                                    PNG support for opencv
+opencv4[quality]:x64-windows-static-md                                Build opencv_quality module
+opencv4[quirc]:x64-windows-static-md                                  Enable QR code module
+opencv4[thread]:x64-windows-static-md                                 Enable thread support
+opencv4[tiff]:x64-windows-static-md                                   TIFF support for opencv
+opencv4[webp]:x64-windows-static-md                                   WebP support for opencv
+opencv4[win32ui]:x64-windows-static-md                                Enable win32ui
+openexr:x64-windows-static-md                     3.3.2               OpenEXR is a high dynamic-range (HDR) image file...
+opengl-registry:x64-windows                       2024-02-10#1        OpenGL, OpenGL ES, and OpenGL ES-SC API and Exte...
+opengl-registry:x64-windows-static-md             2024-02-10#1        OpenGL, OpenGL ES, and OpenGL ES-SC API and Exte...
+opengl:x64-windows                                2022-12-04#3        Open Graphics Library (OpenGL)[3][4][5] is a cro...
+opengl:x64-windows-static-md                      2022-12-04#3        Open Graphics Library (OpenGL)[3][4][5] is a cro...
+openjpeg:x64-windows-static-md                    2.5.3               OpenJPEG is an open-source JPEG 2000 codec writt...
+openssl:x64-windows-static-md                     3.4.1               OpenSSL is an open source project that provides ...
+osg:x64-windows-static-md                         3.6.5#26            The OpenSceneGraph is an open source high perfor...
+osg[fontconfig]:x64-windows-static-md                                 Enable Fontconfig support for osgText
+osg[freetype]:x64-windows-static-md                                   Enable Freetype support
+osg[nvtt]:x64-windows-static-md                                       Build texture processing tools plugin
+osg[openexr]:x64-windows-static-md                                    Build the exr plugin
+osg[plugins]:x64-windows-static-md                                    Build most OSG plugins
+pcl:x64-windows-static-md                         1.15.0#2            Point Cloud Library (PCL) is open source library...
+pcre2:x64-windows                                 10.45               Regular Expression pattern matching using the sa...
+pcre2:x64-windows-static-md                       10.45               Regular Expression pattern matching using the sa...
+pcre2[jit]:x64-windows                                                Enable support for Just-In-Time compiling regex ...
+pcre2[jit]:x64-windows-static-md                                      Enable support for Just-In-Time compiling regex ...
+pcre2[platform-default-features]:x64-windows                          Enable default features
+pcre2[platform-default-features]:x64-windows-st...                    Enable default features
+pkgconf:x64-windows                               2.4.3               pkgconf is a program which helps to configure co...
+proj:x64-windows-static-md                        9.6.0               PROJ library for cartographic projections
+proj[net]:x64-windows-static-md                                       Enable network support
+proj[tiff]:x64-windows-static-md                                      Enable TIFF support to read some grids
+protobuf:x64-windows                              5.29.3              Google's language-neutral, platform-neutral, ext...
+protobuf:x64-windows-static-md                    5.29.3              Google's language-neutral, platform-neutral, ext...
+qhull:x64-windows-static-md                       8.0.2#5             computes the convex hull, Delaunay triangulation...
+quirc:x64-windows-static-md                       1.2                 quirc is one of the C library available for scan...
+sophus:x64-windows-static-md                      1.24.6-r1           Lie group library for C++
+sqlite3:x64-windows                               3.49.1              SQLite is a software library that implements a s...
+sqlite3:x64-windows-static-md                     3.49.1              SQLite is a software library that implements a s...
+sqlite3[json1]:x64-windows                                            Enable JSON functionality for sqlite3
+sqlite3[json1]:x64-windows-static-md                                  Enable JSON functionality for sqlite3
+sqlite3[rtree]:x64-windows-static-md                                  Enable the RTREE extension
+sqlite3[tool]:x64-windows                                             Build sqlite3 executable
+suitesparse-amd:x64-windows-static-md             3.3.3               AMD: Routines for permuting sparse matrices prio...
+suitesparse-btf:x64-windows-static-md             2.3.2               BTF: Software package for permuting a matrix int...
+suitesparse-camd:x64-windows-static-md            3.3.3               AMD: Routines for permuting sparse matrices prio...
+suitesparse-ccolamd:x64-windows-static-md         3.3.4               CCOLAMD: Routines for constrained column approxi...
+suitesparse-cholmod:x64-windows-static-md         5.3.0               CHOLMOD: Routines for factorizing sparse symmetr...
+suitesparse-cholmod[matrixops]:x64-windows-stat...                    Build MatrixOps module
+suitesparse-cholmod[openmp]:x64-windows-static-md                     Enable OpenMP support
+suitesparse-cholmod[partition]:x64-windows-stat...                    Build Partition module
+suitesparse-cholmod[supernodal]:x64-windows-sta...                    Build SuperNodal module
+suitesparse-colamd:x64-windows-static-md          3.3.4               COLAMD: Routines for column approximate minimum ...
+suitesparse-config:x64-windows-static-md          7.8.3               Configuration for SuiteSparse libraries
+suitesparse-config[openmp]:x64-windows-static-md                      Enable OpenMP support (in SuiteSparse_config only)
+suitesparse-cxsparse:x64-windows-static-md        4.4.1               CXSparse: Software package for permuting a matri...
+suitesparse-graphblas:x64-windows-static-md       9.3.1               SuiteSparse:GraphBLAS: graph algorithms in the l...
+suitesparse-graphblas[openmp]:x64-windows-stati...                    Enable OpenMP support
+suitesparse-klu:x64-windows-static-md             2.3.5               KLU: Routines for solving sparse linear systems ...
+suitesparse-lagraph:x64-windows-static-md         1.1.4#1             LAGraph: Library plus test harness for collectin...
+suitesparse-lagraph[openmp]:x64-windows-static-md                     Enable OpenMP support
+suitesparse-ldl:x64-windows-static-md             3.3.2               LDL: A sparse LDL' factorization and solve packa...
+suitesparse-spex:x64-windows-static-md            3.2.1               SPEX: Software package for SParse EXact algebra ...
+suitesparse-spex[openmp]:x64-windows-static-md                        Enable OpenMP support
+suitesparse-spqr:x64-windows-static-md            4.3.4               SPQR: Multithreaded, multifrontal, rank-revealin...
+suitesparse-umfpack:x64-windows-static-md         6.3.5               UMFPACK: Routines solving sparse linear systems ...
+suitesparse-umfpack[cholmod]:x64-windows-static-md                    Use CHOLMOD
+tbb:x64-windows-static-md                         2022.0.0#2          Intel's Threading Building Blocks.
+tesseract:x64-windows-static-md                   5.5.0#1             An OCR Engine that was developed at HP Labs betw...
+tiff:x64-windows-static-md                        4.7.0               A library that supports the manipulation of TIFF...
+tiff[jpeg]:x64-windows-static-md                                      Support JPEG compression in TIFF image files
+tiff[lzma]:x64-windows-static-md                                      Support LZMA compression in TIFF image files
+tiff[zip]:x64-windows-static-md                                       Support ZIP/deflate compression in TIFF image files
+uriparser:x64-windows-static-md                   0.9.8               Strictly RFC 3986 compliant URI parsing and hand...
+utf8-range:x64-windows                            5.29.3              Fast UTF-8 validation with Range algorithm (NEON...
+utf8-range:x64-windows-static-md                  5.29.3              Fast UTF-8 validation with Range algorithm (NEON...
+vcpkg-boost:x64-windows                           2024-05-15          
+vcpkg-cmake-config:x64-windows                    2024-05-23          
+vcpkg-cmake-get-vars:x64-windows                  2024-09-22          
+vcpkg-cmake:x64-windows                           2024-04-23          
+vcpkg-get-python-packages:x64-windows             2024-09-29          
+vcpkg-gfortran:x64-windows-static-md              3#3                 Metaport to install gfortran dependencies from m...
+vcpkg-make:x64-windows                            2025-04-02          
+vcpkg-msbuild:x64-windows                         2023-08-08          
+vcpkg-pkgconfig-get-modules:x64-windows           2024-04-03          
+vcpkg-tool-lessmsi:x64-windows                    1.10.0#1            This is a utility with a graphical user interfac...
+vcpkg-tool-meson:x64-windows                      1.6.1               Meson build system
+zlib:x64-windows                                  1.3.1               A compression library
+zlib:x64-windows-static-md                        1.3.1               A compression library
+zstd:x64-windows-static-md                        1.5.7               Zstandard - Fast real-time compression algorithm
