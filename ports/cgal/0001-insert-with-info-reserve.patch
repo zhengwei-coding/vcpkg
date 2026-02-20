@@ -1,0 +1,25 @@
+diff --git a/Triangulation_3/include/CGAL/Delaunay_triangulation_3.h b/Triangulation_3/include/CGAL/Delaunay_triangulation_3.h
+index 35517be..48001ef 100644
+--- a/Triangulation_3/include/CGAL/Delaunay_triangulation_3.h
++++ b/Triangulation_3/include/CGAL/Delaunay_triangulation_3.h
+@@ -411,13 +411,17 @@
+   std::ptrdiff_t insert_with_info(InputIterator first, InputIterator last)
+   {
+     size_type n = number_of_vertices();
++    const std::size_t point_count = static_cast<std::size_t>(std::distance(first, last));
+     std::vector<std::size_t> indices;
++    indices.reserve(point_count);
+     std::vector<Point> points;
++    points.reserve(point_count);
+     std::vector<typename Triangulation_data_structure::Vertex::Info> infos;
+-    std::size_t index=0;
+-    for(InputIterator it=first;it!=last;++it)
++    infos.reserve(point_count);
++    std::size_t index = 0;
++    for(InputIterator it = first; it != last; ++it)
+     {
+-      Tuple_or_pair value=*it;
++      Tuple_or_pair value = *it;
+       points.push_back(top_get_first(value));
+       infos.push_back(top_get_second(value));
+       indices.push_back(index++);

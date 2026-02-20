@@ -22,6 +22,7 @@ vcpkg_extract_source_archive(
         windows/spin_delay.patch
         windows/tcl-9.0-alpha.patch
         android/unversioned_so.patch
+        windows/vs2026-nmake-version.patch
 )
 
 file(GLOB _py3_include_path "${CURRENT_HOST_INSTALLED_DIR}/include/python3*")

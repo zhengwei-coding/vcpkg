@@ -1,0 +1,3 @@
+{
+  "overlay-ports": [ "ports/cgal", "ports/gdal", "ports/ghc-filesystem", "ports/libpq" ]
+}

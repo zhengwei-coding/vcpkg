@@ -111,6 +111,12 @@ vcpkg_cmake_install()
 vcpkg_copy_pdbs()
 vcpkg_fixup_pkgconfig()
 vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/gdal)
+# Fix HDF5 detection: CMake's FindHDF5 module doesn't work with vcpkg's
+# static HDF5. Use CONFIG mode to find vcpkg's hdf5-config.cmake instead.
+vcpkg_replace_string("${CURRENT_PACKAGES_DIR}/share/gdal/GDALConfig.cmake"
+    "find_dependency(HDF5 COMPONENTS C)"
+    "find_dependency(HDF5 CONFIG REQUIRED)"
+)
 vcpkg_replace_string("${CURRENT_PACKAGES_DIR}/share/gdal/GDALConfig.cmake"
     "include(CMakeFindDependencyMacro)"
     "include(CMakeFindDependencyMacro)

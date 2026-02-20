@@ -21,6 +21,12 @@ vcpkg_cmake_config_fixup(
     CONFIG_PATH "lib/cmake/ghc_filesystem"
 )
 
+# Fix /utf-8 leaking to nvcc: use COMPILE_LANG_AND_ID instead of C/CXX_COMPILER_ID
+vcpkg_replace_string("${CURRENT_PACKAGES_DIR}/share/ghc_filesystem/ghc_filesystem-targets.cmake"
+    [[INTERFACE_COMPILE_OPTIONS "\$<\$<C_COMPILER_ID:MSVC>:/utf-8>;\$<\$<CXX_COMPILER_ID:MSVC>:/utf-8>"]]
+    [[INTERFACE_COMPILE_OPTIONS "\$<\$<COMPILE_LANG_AND_ID:C,MSVC>:/utf-8>;\$<\$<COMPILE_LANG_AND_ID:CXX,MSVC>:/utf-8>"]]
+)
+
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/lib")
 
 file(INSTALL "${SOURCE_PATH}/LICENSE" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}" RENAME copyright)

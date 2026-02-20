@@ -1,0 +1,131 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "wse-project",
+  "version-string": "1.0.0",
+  "description": "WSE project dependencies (BUILD_MAPPER=ON, BUILD_DL_INFERENCE=ON)",
+  "builtin-baseline": "36f02df9a386654ac25a4fc63cbe660d0ef978ac",
+  "dependencies": [
+    "boost",
+    {
+      "name": "ceres",
+      "features": [ "cuda", "eigensparse", "lapack", "schur", "suitesparse" ]
+    },
+    "cgal",
+    "clipper2",
+    "eigen3",
+    "flann",
+    "g2o",
+    {
+      "name": "gdal",
+      "features": [
+        "curl",
+        "expat",
+        "geos",
+        "gif",
+        "hdf5",
+        "iconv",
+        "jpeg",
+        "lerc",
+        "libkml",
+        "libspatialite",
+        "libxml2",
+        "lzma",
+        "netcdf",
+        "openjpeg",
+        "openssl",
+        "pcre2",
+        "png",
+        "postgresql",
+        "qhull",
+        "recommended-features",
+        "sqlite3",
+        "webp",
+        "zstd"
+      ]
+    },
+    "geographiclib",
+    "geos",
+    "gklib",
+    "glew",
+    "glog",
+    {
+      "name": "cpp-httplib",
+      "features": [ "brotli" ]
+    },
+    "jemalloc",
+    "libjpeg-turbo",
+    "lastools",
+    "liblzma",
+    "lz4",
+    "metis",
+    "nlohmann-json",
+    "json-schema-validator",
+    {
+      "name": "opencv4",
+      "features": [
+        "calib3d",
+        "contrib",
+        "cuda",
+        "directml",
+        "dnn",
+        "dshow",
+        "eigen",
+        "freetype",
+        "fs",
+        "gapi",
+        "highgui",
+        "intrinsics",
+        "ipp",
+        "jpeg",
+        "jpegxl",
+        "msmf",
+        "nonfree",
+        "opencl",
+        "openjpeg",
+        "openmp",
+        "png",
+        "quality",
+        "quirc",
+        "thread",
+        "tiff",
+        "webp",
+        "win32ui"
+      ]
+    },
+    "opengl",
+    {
+      "name": "osg",
+      "features": [ "fontconfig", "freetype", "nvtt", "openexr", "plugins" ]
+    },
+    "openssl",
+    {
+      "name": "pcl",
+      "features": [ "cuda" ]
+    },
+    "libpng",
+    {
+      "name": "proj",
+      "features": [ "net", "tiff" ]
+    },
+    "sophus",
+    {
+      "name": "suitesparse-cholmod",
+      "features": [ "matrixops", "openmp", "partition", "supernodal" ]
+    },
+    "suitesparse-cxsparse",
+    "suitesparse-spqr",
+    {
+      "name": "suitesparse-umfpack",
+      "features": [ "cholmod" ]
+    },
+    "tbb",
+    {
+      "name": "tiff",
+      "features": [ "jpeg", "lzma", "zip" ]
+    },
+    {
+      "name": "sqlite3",
+      "features": [ "json1", "rtree" ]
+    }
+  ]
+}

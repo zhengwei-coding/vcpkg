@@ -1,0 +1,25 @@
+diff --git a/src/tools/msvc/VSObjectFactory.pm b/src/tools/msvc/VSObjectFactory.pm
+index abcdef1..1234567 100644
+--- a/src/tools/msvc/VSObjectFactory.pm
++++ b/src/tools/msvc/VSObjectFactory.pm
+@@ -138,8 +138,16 @@ sub DetermineVisualStudioVersion
+ 		if ($output =~ /(\d+)\.(\d+)\.\d+(\.\d+)?/)
+ 		{
+ 			return _GetVisualStudioVersion($1, $2);
+ 		}
+ 
+-		croak
+-		  "Unable to determine Visual Studio version: The nmake version could not be determined.";
++		# VS 2026+ nmake no longer prints a version banner.
++		# Fall back to cl.exe version detection.
++		my $cl_output = `cl 2>&1`;
++		if ($cl_output =~ /(\d+)\.(\d+)\.\d+/)
++		{
++			return _GetVisualStudioVersion($1, $2);
++		}
++
++		croak
++		  "Unable to determine Visual Studio version: Neither nmake nor cl version could be determined.";
+ 	}
+ 	else
+ 	{
