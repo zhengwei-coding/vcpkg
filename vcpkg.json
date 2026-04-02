@@ -8,7 +8,7 @@
     "boost",
     {
       "name": "ceres",
-      "features": [ "cuda", "eigensparse", "lapack", "schur", "suitesparse" ]
+      "features": [ "eigensparse", "lapack", "schur", "suitesparse" ]
     },
     "cgal",
     "clipper2",
